@@ -1,0 +1,63 @@
+name: nyx_audio
+description: Nyx Audio — your music, unfettered.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # HTTP & API
+  http: ^1.2.0
+
+  # Database
+  sqflite: ^2.3.2
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.2
+
+  # Storage & Preferences
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.2.2
+
+  # File handling
+  file_picker: ^8.0.0+1
+
+  # URL launcher / OAuth
+  url_launcher: ^6.2.6
+
+  # Audio playback
+  just_audio: ^0.9.40
+
+  # Image caching
+  cached_network_image: ^3.3.1
+
+  # Shelf (local WiFi sync server)
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+
+  # UUID
+  uuid: ^4.3.3
+
+  # JSON
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+
+  # fonts added later
